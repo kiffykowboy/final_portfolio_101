@@ -9,7 +9,10 @@ body{
   background-color:#ededed;
 }
 
- 
+img{
+  border-radius: 5px;
+
+} 
 
 header{
   display: grid;
@@ -118,6 +121,9 @@ nav{
   padding-left: 3%;
   padding-right: 3%;
   color: white;
+  display:flex;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 #prof{
@@ -151,19 +157,19 @@ grid-column: 1;
   grid-row:/-1;
 }
 
-.sm{
-  padding: 50px;
-}
 
 
-@media (max-width: 1000px){
+@media (max-width: 1100px){
   header{
     display: grid;
     grid-template-rows: 1fr 1fr;
   }
   h1{
     margin-left: 5% ;
+    display: flex;
     align-items: center;
+    font-size: 30px;
+    margin-top: 15%;
   }
   .logo{
     width: 133px;
@@ -197,6 +203,7 @@ grid-column: 1;
   }
   .has-border{
     padding: 10px;
+    font-size: 2%;
   }
 }
    
