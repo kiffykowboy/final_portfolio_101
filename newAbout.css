@@ -20,7 +20,7 @@ header{
   grid-template-rows: 50%, 50%;
   position: relative;
   height: 120px;
-  background-color: #519194;
+  background-color: gray;
 }
 
 h1{
@@ -152,7 +152,7 @@ grid-column: 1;
   width: 100%;
   height: 20vh;
   text-align: center;
-  background-color: #519194;
+  background-color: gray;
   grid-column: 1/-1;
   grid-row:/-1;
 }
